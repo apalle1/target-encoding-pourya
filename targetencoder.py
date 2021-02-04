@@ -7,6 +7,11 @@ Original file is located at
     https://colab.research.google.com/drive/1qk4eEq6KZRlrurN55-hcq9iqCVemQ4SJ
 """
 
+# https://brendanhasz.github.io/2019/03/04/target-encoding#cross-fold-target-encoding
+# https://medium.com/@pouryaayria/k-fold-target-encoding-dfe9a594874b
+# https://www.kaggle.com/c/mercedes-benz-greener-manufacturing/discussion/36136#201638
+# https://datascience.stackexchange.com/questions/11024/encoding-categorical-variables-using-likelihood-estimation
+
 import numpy as np
 import pandas as pd
 from sklearn import base
